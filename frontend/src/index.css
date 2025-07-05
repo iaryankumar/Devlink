@@ -18,9 +18,11 @@
     --font-more: "Source Code Pro", sans-serif;
 }
 
-@media (max-width:384px){
+@media (max-width:450px){
     .textt{
         font-size: 3.5rem;
         line-height: 60px;
+        text-align: left;
+        font-weight: bold;
     }
 }
