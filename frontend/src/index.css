@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+    --font-primary: Inter, sans-serif;
+    --color-primary: #495E57;
+}
+
+.stylishDiv{
+    border-radius:  400px 10px 10px 10px;
+}
+ @media (max-width:840px){
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+        padding: 2;
+    }
+    .hero-child{
+        width: 100%;
+    }
+ }
+
+ @media (max-width:360px){
+    .lDfonts{
+        font-size: 2.5rem;
+        line-height: 45px;
+    }
+ }
